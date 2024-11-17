@@ -1,6 +1,10 @@
 # NERD CAT
 
+<img src="nerd_cat.jpeg" alt="A nerdy cat" width="300"/>
+
 Nerd Cat is a basic syntax highlighter for Python written in Bash. It works just like the `cat` tool, outputting the contents of a file directly on the terminal, but with added coloring.
+
+https://github.com/user-attachments/assets/4129d8dd-814c-4a7e-bc28-95c301c8823f
 
 ## Usage
 
@@ -14,11 +18,11 @@ Nerd Cat is a basic syntax highlighter for Python written in Bash. It works just
 
 ## Features
 
-1. Basic syntax coloring for Python.
-2. Added support for multi-line strings, comments and punctuations within expressions.
-3. Implementation of a lexer instead of relying on regex for processing.
+- Basic syntax coloring for Python.
+- Added support for multi-line strings, comments and punctuations within expressions.
+- Implementation of a lexer instead of relying on regex for processing.
 
 ## Limitations
 
-1. Cannot highlight function names properly.
-2. May be buggy, I don't know. You tell me :)
+- Cannot highlight function names properly.
+- May be buggy. I don't know, you tell me :)
