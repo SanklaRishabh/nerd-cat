@@ -139,22 +139,19 @@ tokenize_and_colorize() {
 if [ $# -ne 1 ]; then
   echo "Usage: nerd-cat [PYTHON-FILE]"
   echo "Example: nerd-cat main.py"
-
-  return 1
+  exit 1
 fi
 
 # Check if the file exists and is a valid Python format file.
 if [[ ! $1 =~ \.py || ! -f "$1" ]]; then
   echo "Error: Invalid file type."
-
-  return 2
+  exit 2
 fi
 
 # Check if the file is readable.
 if [ ! -r "$1" ]; then
   echo "Error: File $1 is not readable."
-
-  return 3
+  exit 3
 fi
 
 # Get the contents of the file.
